@@ -1,15 +1,7 @@
 import pyrebase
+from firebase import *
 # in this page engine default current location getting , current comapss Rotation value getting
 
-# firebase config
-config = {
-  "apiKey": "AIzaSyAY6J15m0dP9NUHElJlNogCJ56iCT-cWrM",
-  "authDomain": "compassmodule-35cfe.firebaseapp.com",
-  "databaseURL": "https://compassmodule-35cfe.firebaseio.com",
-  "storageBucket": "compassmodule-35cfe.appspot.com"
-}
-firebase = pyrebase.initialize_app(config)
-db = firebase.database()
 
 
 # default location
