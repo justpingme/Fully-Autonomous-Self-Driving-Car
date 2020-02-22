@@ -2,10 +2,10 @@ import pyrebase
 
 #firebase config
 config = {
-  "apiKey": "AIzaSyAc8-wcVf3ZysBh4iAJvcr1wijTSzr_ynk",
-  "authDomain": "android-rider-app-41d08.firebaseapp.com",
-  "databaseURL": "https://android-rider-app-41d08.firebaseio.com",
-  "storageBucket": "android-rider-app-41d08.appspot.com"
+  "apiKey": "",
+  "authDomain": " ",
+  "databaseURL": " ",
+  "storageBucket": " "
 }
 
 firebase = pyrebase.initialize_app(config)
